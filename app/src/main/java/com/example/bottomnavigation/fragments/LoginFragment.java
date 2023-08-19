@@ -10,11 +10,8 @@ import android.view.ViewGroup;
 
 import com.example.bottomnavigation.R;
 
-
-public class CartFragment extends Fragment {
-
-
-    public CartFragment() {
+public class LoginFragment extends Fragment {
+    public LoginFragment() {
         // Required empty public constructor
     }
 
@@ -22,8 +19,6 @@ public class CartFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view= inflater.inflate(R.layout.fragment_cart, container, false);
-        return view;
-        
+        return inflater.inflate(R.layout.fragment_login, container, false);
     }
 }

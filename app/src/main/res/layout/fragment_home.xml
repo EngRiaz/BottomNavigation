@@ -11,9 +11,16 @@
         android:id="@+id/txt_name"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center"
         android:textSize="40sp"
         android:textColor="@color/white"
         android:text="Home Fragment" />
+    <TextView
+        android:id="@+id/txt_next"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:text="Next Fragment" />
 
 </FrameLayout>
